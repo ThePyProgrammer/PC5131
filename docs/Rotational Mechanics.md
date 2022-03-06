@@ -2,6 +2,8 @@
 
 (yeet.)
 
+Chapter 1 of PC5131 is Rotational Mechanics, which is problematic. The topic is just a scam, since it is just all of Mechanics but with Angular (not the painful JS Framework). Surmised below is a list of equations which can probably help one understand Rotational Mechanics in the context of normal Mechanical concepts. Good Luck.
+
 ## Translational and Rotational Counterparts
 
 It's just everything we have already learnt, but they added angular in front of it. So let's just walk through a list of equations, and their rotational counterparts.
@@ -18,8 +20,6 @@ It's just everything we have already learnt, but they added angular in front of 
 |$E_K = \frac{1}{2}mv^2$|$E_L = \frac{1}{2}I\omega^2$|
 |$P = \frac{W}{t} = F \cdot v$|$P = \tau \cdot \omega$|
 
-
-
 ## Moment of Inertia, $I$
 
 Do note that $I$ is slightly more cursed, and the following table demonstrates the definition of $I$:
@@ -32,11 +32,9 @@ Do note that $I$ is slightly more cursed, and the following table demonstrates t
 |Circular Disc (from the centre)|$I = \frac{1}{2}MR^2$|$\frac{1}{2}$|
 |Circular Disc (through diameter)|$I = \frac{1}{4}MR^2$|$\frac{1}{4}$|
 |Long Rod (from the centre)|$I = \frac{1}{12}ML^2$|$\frac{1}{12}$|
-|Long Rod (from end)|$I = \frac{1}{12}ML^2 + Md^2 = \frac{1}{12}ML^2 + \frac{1}{4}ML^2 = \frac{1}{3}ML^2$|$\frac{1}{3}$|
+|Long Rod (from end)|$I = \frac{1}{3}ML^2$|$\frac{1}{3}$|
 |Solid Sphere|$I = \frac{2}{5}MR^2$|$\frac{2}5$|
 |Hollow Sphere|$I = \frac{2}{3} MR^2$|$\frac{2}3$|
-
-
 
 ## Shifting from Translational to Rotational
 
@@ -51,8 +49,6 @@ We also note that we can relate all the quantities to each other via the variabl
 |$\vec F \times \vec{r}$|$\vec \tau$|
 |$\vec r \times \vec p$|$\vec L$|
 
-
-
 ## Conservation Cases
 
 Cases to be considered for collisions:
@@ -63,8 +59,6 @@ Cases to be considered for collisions:
 |Inelastic Collison|COM applies, COE does not|COAM applies, COE does not|
 |Completely Inelastic Collision (objects stick together)|COM applies, COE does not|COAM applies, COE does not|
 |Some force acting throughout the motion (e.g. Gravity)|COE applies, COM does not|COE applies, COAM does not|
-
-
 
 ## Ramp
 
@@ -77,33 +71,15 @@ Cases to be considered for collisions:
 | Velocity at Top of Loop-_de_-Loop (Radius $R$) | $v_{loop} = \sqrt{g(R-r)}$                                   |
 | Minimum height, $h$ for Loop-_de_-Loop         | $h = \frac{5+\beta}{2}(R-r)$                                 |
 
-
-
 ## Loop-_de_-Loop
 
 Loop-_de_-Loop for normal circular motion:
-$$
-\begin{align*}
-N = \frac{mv^2}R &- mg =  0 \\
-v^2 &= Rg \\
-\frac{1}{2}mv^2 &= mg(h-2R) \\
-v^2 &= 2g(h-2R) = Rg \\
-2h - 4R &= R \\
-h &= 2.5 R
-\end{align*}
-$$
+
+$$\begin{align*}N &= \frac{mv^2}R - mg =  0 \\ v^2 &= Rg \\ \frac{1}{2}mv^2 &= mg(h-2R) \\ v^2 &= 2g(h-2R) = Rg \\ 2h - 4R &= R \\ h &= 2.5 R\end{align*}$$
+
 For rigid body of radius $r$:
-$$
-\begin{align*}
-N = \frac{mv^2}{R-r} &- mg =  0 \\
-v^2 &= g(R-r) \\
-\frac{1}{2}(1+\beta)mv^2 &= mg(h+2r-2R) \\
-(1+\beta)g(R-r) &= 2g (h+2r-2R) \\
-(1+\beta)(R-r) &= 2h - 4(R-r) \\
-2h &= (5+\beta)(R - r) \\
-h &= \frac{5+\beta}{2}(R-r)
-\end{align*}
-$$
+
+$$\begin{align*}N &= \frac{mv^2}{R-r} - mg =  0 \\ v^2 &= g(R-r) \\ \frac{1}{2}(1+\beta)mv^2 &= mg(h+2r-2R) \\ (1+\beta)g(R-r) &= 2g (h+2r-2R) \\ (1+\beta)(R-r) &= 2h - 4(R-r) \\ 2h &= (5+\beta)(R - r) \\ h &= \frac{5+\beta}{2}(R-r) \end{align*}$$
 
 
 
