@@ -1,0 +1,96 @@
+{
+  "main": {
+    "id": "37f999f0ab0dc2bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "c9a225e35c52b01a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "docs/Rotational Mechanics.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3a964570eb1834ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "c8fa6b64c4b30ea5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eac6d29dc40ace64",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5bc81a3e9610077a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a63afed93597f1b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "54ee18997cdf1fcc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30aa75a358fff869",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/Rotational Mechanics.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c9a225e35c52b01a",
+  "lastOpenFiles": [
+    "docs/Rotational Mechanics.md",
+    "notes/Rotational Motion Sucks.pdf",
+    "notes/Rotational Motion Sucks.md"
+  ]
+}
